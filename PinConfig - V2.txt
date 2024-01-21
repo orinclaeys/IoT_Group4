@@ -1,0 +1,28 @@
+--------SHT40---------
+Handle: hi2c3
+Vin <=> 3.3V
+3V0 <=> /
+GND <=> GND
+SCL <=> A6(PA7)
+SDA <=> D12(PB4)
+--------LTR-329-----------
+Handle: hi2c3
+Vin <=> 3.3V
+3V0 <=> /
+GND <=> GND
+SCL <=> A6(PA7)
+SDA <=> D12(PB4)
+-------DASH7-------------
+GND <=> GND
+PA3 <=> A7
+PA2 <=> A2
+-------BLE---------------
+GND <=> GND
+3V3 <=> 3.3V
+TX  <=> D4(PB7)
+RX  <=> D5(PB6)
+-------Robot------------
+Forward: T5 <=> D6
+Left   : T6 <=> D11
+Right  : T4 <=> D13
+Interrupt: T21(PA5) <=> A5
