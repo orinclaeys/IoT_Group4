@@ -4,11 +4,21 @@
 This repository contains the code and configuration for our IoT 'Mars Rover' project, developed as part of a master's thesis in IoT. The project includes a rover controlled via a base station, designed for autonomous exploration and data collection with a focus on low power consumption.
 
 ## Repository Structure
-- `Linebot/`: Code for the Linebot in Microchip Studio.
-- `STM32/`: Source files and configurations for the STM32 microcontroller.
-- `BLE_Modules/`: Scripts for the Bluetooth Low Energy (BLE) modules.
-- `DASH7/`: DASH7 communication protocol implementation.
-- `PinConfig/`: Pin configuration files detailing hardware connections.
+- IoT_Group4_LineBotCode.zip: This archive contains the complete code for the Linebot, integral to the rover's control system.
+
+- IoT_Group4_STMCode.zip: This file includes the code for the STM microcontroller, a crucial component of the rover's hardware.
+
+- Peripheral.ino: Script for the BLE (Bluetooth Low Energy) module setup in peripheral mode, enabling rover communication.
+
+- PinConfig - V2.txt: A detailed pin configuration file, outlining the hardware connections and setup for the rover.
+
+- centr.ino: Script for the BLE module in central mode, crucial for managing communication between different components of the rover.
+
+- gasbusters_pull.zip: Contains the DASH7 end node code, essential for long-range communication with the base station.
+
+- gasbusters_query_nodes.py: Python script for the DASH7 gateway, facilitating data query and transmission.
+
+- influxdb_gas.zip: Archive containing resources and scripts for setting up and managing the project's InfluxDB, used for storing and handling the data collected by the rover.
 
 ## Hardware
 - Linebot with XMEGA processor
